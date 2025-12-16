@@ -22,6 +22,6 @@
 
 <script setup>
     import {productList} from '../Composable/ProductList'
-    const {ProductList} = productList();  // get an array from Composable
+    const {ProductList} = productList();  // call from Composable to use in this page
 
 </script>
